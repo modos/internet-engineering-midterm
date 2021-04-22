@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Engineering MidTerm</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+
+    <div class="main">
+        <div class="first-col">
+            <h3>Mr. or Ms.?</h3>
+            <form id="request-form">
+                <label>Name: </label>
+                <input type="text" name="name"/>
+                <br>
+                <input type="radio" name="gender" value="male"> Male</input>
+                <br>
+                <input type="radio" name="gender" value="female"> Female</input>
+                <br>
+                <input class="submit" type="submit" value="Submit"/>
+
+                <p hidden class="alert">Does not exist</p>
+            </form>
+        </div>
+        <div class="second-col">
+            <h3>Prediction</h3>
+            <p class="predicted-gender">Gender</p>
+            <p class="predicted-rate">Rate</p>
+
+            <div class="saved-answer">
+                <h3>Saved Answer</h3>
+                <p class="saved-gender">Nothing</p>
+                <input class="clear_button" type="button" value="Clear"/>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

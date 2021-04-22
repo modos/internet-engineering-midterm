@@ -1,0 +1,99 @@
+/* Just some configs */
+
+*, 
+*::after,
+*::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: inherit;
+}
+
+/* Means font-size = 10px */
+html {
+    font-size: 62.5%;
+}
+
+
+/* I prefer grandients than an image */
+
+body {
+    /*8background-image: url(./bg.jpg);
+    background-size: cover;*/
+    background:
+linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background-color: #232927;
+background-size: 100px 100px;
+
+    /* Means font-size = 24px */
+    font-size: 2.4rem;
+}
+
+.main {
+    min-width: 50vw;
+    min-height: 50vh;
+    background: rgba(255, 255, 255, 0.9);
+    /* Centering */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 50px;
+
+    /* Using grid for layouring */
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+}
+
+.main div {
+    padding: 1rem;
+}
+
+.saved-answer {
+    box-sizing: border-box;
+    border: dotted 3px;
+}
+
+input, h3, p {
+    margin-bottom: 1rem;
+}
+
+.submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 2px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.clear_button {
+    background-color: #f00101;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
